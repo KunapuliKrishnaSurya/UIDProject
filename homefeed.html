@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Feed</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>College Social</h1>
+      <ul>
+        <li><a href="homefeed.html">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Groups</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="stories">
+    <h2>Stories</h2>
+    <div class="story">
+      <img src="user1.jpg" alt="User 1">
+      <span>User 1</span>
+    </div>
+    <div class="story">
+      <img src="user2.jpg" alt="User 2">
+      <span>User 2</span>
+    </div>
+    <div class="story">
+      <img src="user3.jpg" alt="User 3">
+      <span>User 3</span>
+    </div>
+    <!-- Add more story elements as needed -->
+  </section>
+
+  <section class="post">
+    <h2>Create a Post</h2>
+    <textarea id="postContent" placeholder="Write something..."></textarea>
+    <button id="postButton">Post</button>
+  </section>
+
+  <section class="feed">
+    <h2>News Feed</h2>
+    <div id="postList">
+      <!-- Dynamic posts will be added here using JavaScript -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 College Social. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

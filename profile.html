@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Profile</title>
+  <link rel="stylesheet" type="text/css" href="style6.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>College Social</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Friends</a></li>
+        <li><a href="#">Groups</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="profile">
+    <div class="profile-header">
+      <div class="profile-avatar">
+        <img id="profilePicture" src="path/to/default-avatar.jpg" alt="Profile Picture">
+        <input type="file" id="profilePictureInput">
+      </div>
+      <div class="profile-info">
+        <h1 id="username" class="profile-username">Username</h1>
+        <div class="profile-counts">
+          <span id="followersCount" class="followers-count">Followers: 0</span>
+          <span id="followingCount" class="following-count">Following: 0</span>
+        </div>
+      </div>
+    </div>
+    <div class="profile-posts">
+      <!-- User posts will be dynamically added here -->
+    </div>
+    <div class="edit-profile">
+      <button id="editProfileBtn">Edit Profile</button>
+      <button id="saveProfileBtn" class="hidden">Save Profile</button>
+    </div>
+  </div>
+  <script src="script3.js"></script>
+</body>
+</html>
